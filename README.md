@@ -21,6 +21,12 @@
   Outside of engineering, I'm passionate about travelling, rugby, and cheering for Arsenal, the Toronto Raptors, the Carolina Panthers, and the Toronto Blue Jays.
 </p>
 
+<p align="center">
+  <img src="./assets/about/travel-cliffs.jpg" alt="Adarsh at coastal cliffs" width="30%"/>
+  <img src="./assets/about/arsenal-travel.jpg" alt="Adarsh wearing an Arsenal jersey" width="30%"/>
+  <img src="./assets/about/rio-travel.jpg" alt="Adarsh at Christ the Redeemer in Rio" width="30%"/>
+</p>
+
 ---
 
 <h2 align="center">🎧 Currently Listening</h2>
