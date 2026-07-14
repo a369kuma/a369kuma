@@ -1,0 +1,177 @@
+<svg width="900" height="285" viewBox="0 0 900 285" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub contribution climb animation</title>
+  <desc id="desc">A stylized GitHub contribution chart with a small character climbing across the contribution blocks.</desc>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --line: rgba(15, 23, 42, 0.12);
+      --empty: #e2e8f0;
+      --l1: #9be9a8;
+      --l2: #40c463;
+      --l3: #30a14e;
+      --l4: #216e39;
+      --accent: #38bdf8;
+      --skin: #f8d8b5;
+      --shirt: #2563eb;
+      --pants: #111827;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #020617;
+        --panel: #0f172a;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --line: rgba(226, 232, 240, 0.14);
+        --empty: #1e293b;
+        --l1: #0e4429;
+        --l2: #006d32;
+        --l3: #26a641;
+        --l4: #39d353;
+        --accent: #38bdf8;
+        --skin: #f8d8b5;
+        --shirt: #38bdf8;
+        --pants: #e2e8f0;
+      }
+    }
+
+    .scan { animation: scan 7s linear infinite; }
+    .spark { animation: spark 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .spark.two { animation-delay: .75s; }
+    .spark.three { animation-delay: 1.4s; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+
+    @keyframes scan {
+      from { transform: translateX(-160px); opacity: 0; }
+      16% { opacity: .35; }
+      72% { opacity: .16; }
+      to { transform: translateX(980px); opacity: 0; }
+    }
+
+    @keyframes spark {
+      0%, 100% { opacity: .25; transform: scale(.85); }
+      45% { opacity: 1; transform: scale(1.18); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .55; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.08); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="cardBg" x1="0" x2="900" y1="0" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--panel)"/>
+      <stop offset="1" stop-color="var(--bg)"/>
+    </linearGradient>
+    <pattern id="emptyGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="11" height="11" rx="2.5" fill="var(--empty)"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="898" height="283" rx="22"/>
+    </clipPath>
+    <path id="climbPath" d="M112 197 C190 188 236 177 290 164 C348 150 394 150 450 132 C512 112 564 126 620 104 C690 76 735 70 792 58"/>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="283" rx="22" fill="url(#cardBg)" stroke="var(--line)" stroke-width="2"/>
+
+  <g clip-path="url(#frame)">
+    <rect x="-100" y="0" width="120" height="285" fill="white" opacity=".16" class="scan"/>
+    <circle cx="742" cy="70" r="132" fill="var(--accent)" opacity=".08"/>
+    <circle cx="180" cy="230" r="150" fill="var(--l2)" opacity=".08"/>
+  </g>
+
+  <text x="48" y="48" fill="var(--text)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">GitHub Contribution Climb</text>
+  <text x="48" y="76" fill="var(--muted)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">a369kuma · consistency, momentum, and shipped work</text>
+
+  <g transform="translate(52 110)">
+    <rect x="0" y="0" width="784" height="112" fill="url(#emptyGrid)" opacity=".9"/>
+
+    <g>
+      <rect x="48" y="80" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="64" y="64" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="80" y="80" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="112" y="48" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="128" y="64" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="144" y="48" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="160" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="176" y="48" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="192" y="64" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="208" y="32" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="224" y="48" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="240" y="16" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="256" y="32" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="272" y="48" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="288" y="64" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="304" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="320" y="16" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="336" y="32" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="352" y="48" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="368" y="16" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="384" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="400" y="48" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="416" y="0" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="432" y="16" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="448" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="464" y="48" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="480" y="16" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="496" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="512" y="0" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="528" y="16" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="544" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="560" y="48" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="576" y="16" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="592" y="0" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="608" y="16" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="624" y="32" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="640" y="0" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+      <rect x="656" y="16" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="672" y="32" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+      <rect x="688" y="48" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+      <rect x="704" y="16" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+      <rect x="720" y="0" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+    </g>
+  </g>
+
+  <path d="M112 197 C190 188 236 177 290 164 C348 150 394 150 450 132 C512 112 564 126 620 104 C690 76 735 70 792 58" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 10" opacity=".55"/>
+
+  <g class="spark">
+    <circle cx="430" cy="126" r="5" fill="var(--accent)"/>
+  </g>
+  <g class="spark two">
+    <circle cx="610" cy="101" r="5" fill="var(--l4)"/>
+  </g>
+  <g class="spark three">
+    <circle cx="780" cy="61" r="5" fill="var(--accent)"/>
+  </g>
+
+  <g>
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#climbPath"/>
+    </animateMotion>
+    <g transform="translate(-12 -26)">
+      <line x1="12" y1="27" x2="33" y2="12" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="12" cy="10" r="7" fill="var(--skin)" stroke="var(--text)" stroke-width="1.5"/>
+      <path d="M7 7C10 3 16 3 19 7" stroke="var(--pants)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M12 18L12 35" stroke="var(--shirt)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M12 24L1 33" stroke="var(--shirt)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M12 24L25 20" stroke="var(--shirt)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M12 35L4 49" stroke="var(--pants)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M12 35L24 46" stroke="var(--pants)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="33" cy="12" r="3.5" fill="var(--accent)" class="pulse"/>
+    </g>
+  </g>
+
+  <g transform="translate(50 248)">
+    <text x="0" y="0" fill="var(--muted)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Less</text>
+    <rect x="36" y="-10" width="11" height="11" rx="2.5" fill="var(--empty)"/>
+    <rect x="54" y="-10" width="11" height="11" rx="2.5" fill="var(--l1)"/>
+    <rect x="72" y="-10" width="11" height="11" rx="2.5" fill="var(--l2)"/>
+    <rect x="90" y="-10" width="11" height="11" rx="2.5" fill="var(--l3)"/>
+    <rect x="108" y="-10" width="11" height="11" rx="2.5" fill="var(--l4)"/>
+    <text x="128" y="0" fill="var(--muted)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">More</text>
+  </g>
+</svg>

@@ -1,23 +1,25 @@
-<h1 align="center">Hi 👋, I'm Adarsh Kumar</h1>
-
-<h3 align="center">
-Management Engineering @ University of Waterloo
-</h3>
-
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&duration=3500&pause=1000&color=0EA5E9&center=true&vCenter=true&width=900&lines=Software+Engineer;Data+Engineer;Building+Cloud+%26+AI+Applications;Embedded+Systems+Developer;Always+Learning+Something+New"
-    alt="Typing animation"
+    src="./assets/profile-banner.svg"
+    alt="Animated profile banner for Adarsh Kumar"
+    width="100%"
   />
 </p>
 
----
 
-## 👨‍💻 About Me
+<h2 align="center">👨‍💻 About Me</h2>
 
-I'm a **Management Engineering student at the University of Waterloo** passionate about building scalable software systems, cloud infrastructure, AI-powered applications, and embedded software.
+<p align="center">
+  Hi, I'm <strong>Adarsh Kumar</strong>, a <strong>Management Engineering student at the University of Waterloo</strong> and an <strong>Incoming Software Engineering Intern at Ford Motor Company</strong>.
+</p>
 
-I enjoy working across the stack, from backend services and distributed systems to embedded telemetry tools and data pipelines. Whether it's deploying cloud infrastructure, optimizing ETL workflows, or debugging firmware, I enjoy solving challenging engineering problems.
+<p align="center">
+  I enjoy working across the stack, from backend services and distributed systems to embedded telemetry tools and data pipelines. Whether it's deploying cloud infrastructure, optimizing ETL workflows, or debugging firmware, I enjoy solving challenging engineering problems.
+</p>
+
+<p align="center">
+  Outside of engineering, I'm passionate about travelling, rugby, and cheering for Arsenal, the Toronto Raptors, the Carolina Panthers, and the Toronto Blue Jays.
+</p>
 
 ---
 
@@ -34,13 +36,15 @@ I enjoy working across the stack, from backend services and distributed systems 
 
 ---
 
-## 🚀 Experience
+<h2 align="center">🚀 Experience</h2>
 
-- 🚙 **Incoming Software Engineering Intern** @ Ford Motor Company
-- 🏎️ **Software Engineer** @ UW Formula Electric
-- ☁️ **Former Data Engineering Intern** @ Canso Investment Counsel
-- 💻 **Former Software Engineering Intern** @ CareMetric Solutions
-- 🌱 Currently exploring **distributed systems**, **cloud infrastructure**, **AI systems**, and **embedded software**
+<p align="center">
+  🚙 <strong>Incoming Software Engineering Intern</strong> @ Ford Motor Company<br>
+  🏎️ <strong>Software Engineer</strong> @ UW Formula Electric<br>
+  ☁️ <strong>Former Data Engineering Intern</strong> @ Canso Investment Counsel<br>
+  💻 <strong>Former Software Engineering Intern</strong> @ CareMetric Solutions<br>
+  🌱 <strong>Former Process Engineering Intern</strong> @ Dryden Fiber Canada
+</p>
 
 ---
 
@@ -107,40 +111,10 @@ I enjoy working across the stack, from backend services and distributed systems 
 
 ---
 
-<h2 align="center">📊 GitHub Analytics</h2>
-
-<p align="center">
-  <img ... github-readme-stats ... />
-  <img ... top-langs ... />
-</p>
-
-<p align="center">
-  <img ... streak-stats ... />
-</p>
-
----
-
 <h2 align="center">🤝 Connect With Me</h2>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/adarshkumar2006/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
-
-  <a href="mailto:a369kuma@uwaterloo.ca">
-    <img
-      src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Email"
-    />
-  </a>
-
-  <a href="https://github.com/a369kuma">
-    <img
-      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
-  </a>
-</p>
+<div align="center">
+  <a href="https://www.linkedin.com/in/adarshkumar2006/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:a369kuma@uwaterloo.ca"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/a369kuma"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+</div>
